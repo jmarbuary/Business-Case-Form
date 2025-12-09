@@ -1,0 +1,743 @@
+{
+    "title": "Solution Readiness Business Case Form",
+    "sections": [
+        {
+            "section_title": "EXECUTIVE SUMMARY",
+            "questions": [
+                {
+                    "question": "Product Overview (2-3 sentences)",
+                    "type": "text"
+                },
+                {
+                    "question": "Target GA Date",
+                    "type": "date"
+                },
+                {
+                    "question": "Overall Readiness Status",
+                    "type": "choice",
+                    "options": [
+                        "Red",
+                        "Yellow",
+                        "Green"
+                    ]
+                },
+                {
+                    "question": "Critical Blockers (if any)",
+                    "type": "text"
+                },
+                {
+                    "question": "Go/No-Go Recommendation",
+                    "type": "choice",
+                    "options": [
+                        "Go",
+                        "No-Go",
+                        "Conditional Go"
+                    ]
+                }
+            ]
+        },
+        {
+            "section_title": "SECTION 1: PRODUCT OVERVIEW",
+            "questions": [
+                {
+                    "question": "Product Owner Contact Information",
+                    "type": "text"
+                },
+                {
+                    "question": "Product Manager Contact Information",
+                    "type": "text"
+                },
+                {
+                    "question": "Development Manager Contact Information",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "section_title": "SECTION 2: Business \u2013 Present Product Strategy",
+            "questions": [
+                {
+                    "question": "Product Name",
+                    "type": "text"
+                },
+                {
+                    "question": "Product Description",
+                    "type": "text"
+                },
+                {
+                    "question": "Target Customer Segment, Initial Deliverable and Maintenance Plan",
+                    "type": "text"
+                },
+                {
+                    "question": "Business Justification",
+                    "type": "text"
+                },
+                {
+                    "question": "General Availability Date",
+                    "type": "date"
+                },
+                {
+                    "question": "Pre-GA",
+                    "type": "choice",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "question": "Pre-GA Target Date",
+                    "type": "date"
+                }
+            ]
+        },
+        {
+            "section_title": "SECTION 3: GAP ANALYSIS & ACTION ITEMS",
+            "questions": [
+                {
+                    "question": "List Gaps Identified",
+                    "type": "text"
+                },
+                {
+                    "question": "Action Items",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "section_title": "SECTION 4: RISK ASSESSMENT",
+            "questions": [
+                {
+                    "question": "High Risks",
+                    "type": "text"
+                },
+                {
+                    "question": "Medium Risks",
+                    "type": "text"
+                },
+                {
+                    "question": "Mitigation Strategies",
+                    "type": "text"
+                },
+                {
+                    "question": "Mitigation Owner",
+                    "type": "text"
+                },
+                {
+                    "question": "Mitigation Due Date",
+                    "type": "date"
+                },
+                {
+                    "question": "Mitigation Status",
+                    "type": "choice",
+                    "options": [
+                        "Not Started",
+                        "In Progress",
+                        "Completed",
+                        "Blocked"
+                    ]
+                },
+                {
+                    "question": "Risk #1 \u2014 Title / Description",
+                    "type": "text"
+                },
+                {
+                    "question": "Risk #1 \u2014 Severity",
+                    "type": "choice",
+                    "options": [
+                        "High",
+                        "Medium",
+                        "Low"
+                    ]
+                },
+                {
+                    "question": "Risk #1 \u2014 Mitigation Strategies",
+                    "type": "text"
+                },
+                {
+                    "question": "Risk #1 \u2014 Mitigation Owner",
+                    "type": "text"
+                },
+                {
+                    "question": "Risk #1 \u2014 Mitigation Due Date",
+                    "type": "date"
+                },
+                {
+                    "question": "Risk #1 \u2014 Mitigation Status",
+                    "type": "choice",
+                    "options": [
+                        "Not Started",
+                        "In Progress",
+                        "Completed",
+                        "Blocked"
+                    ]
+                },
+                {
+                    "question": "Risk #1 \u2014 Risk Status",
+                    "type": "choice",
+                    "options": [
+                        "Open",
+                        "Closed"
+                    ]
+                },
+                {
+                    "question": "Add another risk after Risk #1?",
+                    "type": "choice",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "question": "Risk #2 \u2014 Title / Description",
+                    "type": "text"
+                },
+                {
+                    "question": "Risk #2 \u2014 Severity",
+                    "type": "choice",
+                    "options": [
+                        "High",
+                        "Medium",
+                        "Low"
+                    ]
+                },
+                {
+                    "question": "Risk #2 \u2014 Mitigation Strategies",
+                    "type": "text"
+                },
+                {
+                    "question": "Risk #2 \u2014 Mitigation Owner",
+                    "type": "text"
+                },
+                {
+                    "question": "Risk #2 \u2014 Mitigation Due Date",
+                    "type": "date"
+                },
+                {
+                    "question": "Risk #2 \u2014 Mitigation Status",
+                    "type": "choice",
+                    "options": [
+                        "Not Started",
+                        "In Progress",
+                        "Completed",
+                        "Blocked"
+                    ]
+                },
+                {
+                    "question": "Risk #2 \u2014 Risk Status",
+                    "type": "choice",
+                    "options": [
+                        "Open",
+                        "Closed"
+                    ]
+                },
+                {
+                    "question": "Add another risk after Risk #2?",
+                    "type": "choice",
+                    "options": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "question": "Risk #3 \u2014 Title / Description",
+                    "type": "text"
+                },
+                {
+                    "question": "Risk #3 \u2014 Severity",
+                    "type": "choice",
+                    "options": [
+                        "High",
+                        "Medium",
+                        "Low"
+                    ]
+                },
+                {
+                    "question": "Risk #3 \u2014 Mitigation Strategies",
+                    "type": "text"
+                },
+                {
+                    "question": "Risk #3 \u2014 Mitigation Owner",
+                    "type": "text"
+                },
+                {
+                    "question": "Risk #3 \u2014 Mitigation Due Date",
+                    "type": "date"
+                },
+                {
+                    "question": "Risk #3 \u2014 Mitigation Status",
+                    "type": "choice",
+                    "options": [
+                        "Not Started",
+                        "In Progress",
+                        "Completed",
+                        "Blocked"
+                    ]
+                },
+                {
+                    "question": "Risk #3 \u2014 Risk Status",
+                    "type": "choice",
+                    "options": [
+                        "Open",
+                        "Closed"
+                    ]
+                }
+            ],
+            "repeat_group": {
+                "group_title": "Risk Item",
+                "fields": [
+                    {
+                        "label": "Title / Description",
+                        "type": "text"
+                    },
+                    {
+                        "label": "Severity",
+                        "type": "choice",
+                        "options": [
+                            "High",
+                            "Medium",
+                            "Low"
+                        ]
+                    },
+                    {
+                        "label": "Mitigation Strategies",
+                        "type": "text"
+                    },
+                    {
+                        "label": "Mitigation Owner",
+                        "type": "text"
+                    },
+                    {
+                        "label": "Mitigation Due Date",
+                        "type": "date"
+                    },
+                    {
+                        "label": "Mitigation Status",
+                        "type": "choice",
+                        "options": [
+                            "Not Started",
+                            "In Progress",
+                            "Completed",
+                            "Blocked"
+                        ]
+                    },
+                    {
+                        "label": "Risk Status",
+                        "type": "choice",
+                        "options": [
+                            "Open",
+                            "Closed"
+                        ]
+                    }
+                ],
+                "min_repeats": 1,
+                "max_repeats": 10
+            }
+        },
+        {
+            "section_title": "SECTION 5: GO/NO-GO RECOMMENDATION",
+            "questions": [
+                {
+                    "question": "Recommendation",
+                    "type": "choice",
+                    "options": [
+                        "Go",
+                        "No-Go",
+                        "Conditional Go"
+                    ]
+                },
+                {
+                    "question": "Rationale",
+                    "type": "text"
+                },
+                {
+                    "question": "Conditions for GO",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "section_title": "SECTION 6: Business Unit Approval",
+            "questions": [
+                {
+                    "question": "Authorized By",
+                    "type": "text"
+                },
+                {
+                    "question": "Approval Date",
+                    "type": "date"
+                }
+            ]
+        }
+    ],
+    "logic": {
+        "rules": [
+            {
+                "if": {
+                    "section": "SECTION 5: GO/NO-GO RECOMMENDATION",
+                    "question": "Recommendation",
+                    "equals": "Conditional Go"
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 5: GO/NO-GO RECOMMENDATION",
+                        "question": "Conditions for GO"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 2: Business \u2013 Present Product Strategy",
+                    "question": "Pre-GA",
+                    "equals": "Yes"
+                },
+                "then_insert": [
+                    {
+                        "after": {
+                            "section": "SECTION 2: Business \u2013 Present Product Strategy",
+                            "question": "Pre-GA"
+                        },
+                        "new_question": {
+                            "question": "Pre-GA Target Date",
+                            "type": "date"
+                        }
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 2: Business \u2013 Present Product Strategy",
+                    "question": "Product Description",
+                    "contains": "3rd Party"
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 2: Business \u2013 Present Product Strategy",
+                        "question": "Product and Data Flow Design"
+                    },
+                    {
+                        "section": "SECTION 2: Business \u2013 Present Product Strategy",
+                        "question": "Delivery Method for Customer Base Market"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 3: GAP ANALYSIS & ACTION ITEMS",
+                    "question": "List Gaps Identified",
+                    "not_empty": true
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 3: GAP ANALYSIS & ACTION ITEMS",
+                        "question": "Action Items"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "EXECUTIVE SUMMARY",
+                    "question": "Overall Readiness Status",
+                    "equals": "Red"
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "High Risks"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Strategies"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "EXECUTIVE SUMMARY",
+                    "question": "Overall Readiness Status",
+                    "equals": "Yellow"
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Medium Risks"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Strategies"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "EXECUTIVE SUMMARY",
+                    "question": "Critical Blockers (if any)",
+                    "not_empty": true
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Strategies"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Owner"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Due Date"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Status"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 4: RISK ASSESSMENT",
+                    "question": "High Risks",
+                    "not_empty": true
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Strategies"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Owner"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Due Date"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Status"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 4: RISK ASSESSMENT",
+                    "question": "Medium Risks",
+                    "not_empty": true
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Strategies"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Owner"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Due Date"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Status"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "EXECUTIVE SUMMARY",
+                    "question": "Overall Readiness Status",
+                    "equals": "Green"
+                },
+                "then_hide": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Strategies"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Owner"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Due Date"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Mitigation Status"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 4: RISK ASSESSMENT",
+                    "question": "Add another risk after Risk #1?",
+                    "equals": "Yes"
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #2 \u2014 Title / Description"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 4: RISK ASSESSMENT",
+                    "question": "Add another risk after Risk #1?",
+                    "equals": "No"
+                },
+                "then_hide": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #2 \u2014 Title / Description"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #2 \u2014 Severity"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #2 \u2014 Mitigation Strategies"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #2 \u2014 Mitigation Owner"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #2 \u2014 Mitigation Due Date"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #2 \u2014 Mitigation Status"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #2 \u2014 Risk Status"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Add another risk after Risk #2?"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Title / Description"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Severity"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Mitigation Strategies"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Mitigation Owner"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Mitigation Due Date"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Mitigation Status"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Risk Status"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 4: RISK ASSESSMENT",
+                    "question": "Add another risk after Risk #2?",
+                    "equals": "Yes"
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Title / Description"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 4: RISK ASSESSMENT",
+                    "question": "Add another risk after Risk #2?",
+                    "equals": "No"
+                },
+                "then_hide": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Title / Description"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Severity"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Mitigation Strategies"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Mitigation Owner"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Mitigation Due Date"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Mitigation Status"
+                    },
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #3 \u2014 Risk Status"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "EXECUTIVE SUMMARY",
+                    "question": "Critical Blockers (if any)",
+                    "not_empty": true
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #1 \u2014 Title / Description"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 4: RISK ASSESSMENT",
+                    "question": "High Risks",
+                    "not_empty": true
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #1 \u2014 Title / Description"
+                    }
+                ]
+            },
+            {
+                "if": {
+                    "section": "SECTION 4: RISK ASSESSMENT",
+                    "question": "Medium Risks",
+                    "not_empty": true
+                },
+                "then_show": [
+                    {
+                        "section": "SECTION 4: RISK ASSESSMENT",
+                        "question": "Risk #1 \u2014 Title / Description"
+                    }
+                ]
+            }
+        ]
+    }
+}
